@@ -1963,8 +1963,7 @@ html {
 }
 
 .underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .antialiased {
@@ -2024,10 +2023,8 @@ html {
 }
 
 .transition-colors {
-  -webkit-transition-property: color, background-color, border-color, outline-color, fill, stroke, -webkit-text-decoration-color;
-  transition-property: color, background-color, border-color, outline-color, fill, stroke, -webkit-text-decoration-color;
+  -webkit-transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
   transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
-  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-duration: 150ms;
