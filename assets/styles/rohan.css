@@ -1,0 +1,62 @@
+
+
+.resume {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: rgb(182, 182, 54, 0.5);
+    margin-left: 5rem;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+   }
+
+.dwd {
+    margin-top: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(23) infinite alternate,
+      blink 750ms steps(23) infinite normal;
+    border-right: 5px solid black;
+  }
+
+h2 {
+  text-align: center;
+
+}
+
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+
+
+@media screen and (max-width:600px) {
+    .resume {
+        display: 20%;
+        margin-top: 2rem;
+    }
+    #mainIntro {
+      position: relative;
+      font-size: 28px;
+     }
+}
+
+
